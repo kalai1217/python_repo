@@ -9,4 +9,5 @@ def finding_the_percentage():
         student_marks[name] = scores
     query_name = input()
     avg=sum(student_marks[query_name])/len(student_marks[name])
-    logging.info(avg)
+    logging.info("%.2f"%avg)
+    return avg
