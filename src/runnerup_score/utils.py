@@ -15,3 +15,4 @@ def runnerup_score():
             second_largest = sorted_array[i]
             break
     logging.info(second_largest)
+    return second_largest
