@@ -5,10 +5,14 @@ def collections_named_tuple():
     input_ = int(input())
     my_fields = input().split()
     total_marks = 0
+    val=0
     for _ in range(input_):
         students = namedtuple('my_student', my_fields)
         MARKS, CLASS, NAME, ID = input().split()
         my_student = students(MARKS, CLASS, NAME, ID)
         total_marks += int(my_student.MARKS)
     logging.info((total_marks / input_))
+    val=((total_marks / input_))
+    return val
+
 
