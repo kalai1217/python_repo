@@ -21,3 +21,4 @@ def piling_up():
                 ANS.append("No")
                 break
     logging.info("\n".join(ANS))
+    return ("\n".join(ANS))
