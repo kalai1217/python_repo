@@ -12,3 +12,4 @@ def no_idea():
         elif i in B:
             happiness -= 1
     logging.info(happiness)
+    return happiness
